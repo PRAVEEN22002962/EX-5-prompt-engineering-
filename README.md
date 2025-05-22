@@ -1,31 +1,67 @@
 
+# Ex-5: Comparative Analysis of Different Types of Prompting Patterns
+## Aim:
+To test how ChatGPT responds to naïve prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios, analyzing the quality, accuracy, and depth of the generated responses.
+ 
+## Introduction to Prompting Patterns 
+Prompting patterns are structured methods of instructing AI to achieve desired outputs. 
+Selecting the appropriate pattern improves the quality, clarity, and relevance of responses. 
+Comparative Analysis with Test Scenarios and Examples 
+## Straightforward Prompting 
+• Definition: A direct, single instruction without any examples or detailed reasoning 
+guidance. 
+• Prompt: "List three ways AI is helping in the education sector." 
+• Output: 
+o Personalized learning pathways for students. 
+o Automated grading systems. 
+o Virtual tutoring platforms. 
+• Test Scenario: The task was to generate a basic list of AI applications in education. 
+The straightforward prompt resulted in quick and concise responses but lacked deep 
+elaboration. 
+## Chain-of-Thought Prompting 
+• Definition: Prompting the AI to provide a step-by-step explanation to encourage 
+logical progression. 
+• Prompt: "Step-by-step, explain how AI customizes learning for each student." 
+• Output: 
+1. AI collects data on the student’s learning style and performance. 
+2. It analyzes patterns and identifies strengths and weaknesses. 
+3. Learning content is then adjusted to match the student's needs. 
+4. Continuous feedback helps refine the customization over time. 
+• Test Scenario: The goal was a detailed explanation. Chain-of-thought prompting 
+ensured a logical breakdown, resulting in a deeper and more structured answer. 
+## Zero-Shot Prompting 
+• Definition: Giving a task without examples, assuming the AI will understand from 
+context alone. 
+• Prompt: "Write a short paragraph about AI's role in modern education." 
+• Output: "AI revolutionizes modern education by personalizing learning, automating 
+administrative tasks, and offering real-time feedback. With AI, students can access 
+customized content, and teachers can focus more on interactive teaching." 
+• Test Scenario: The model performed well, generating a creative response without any 
+sample to copy from, although slight variation in style was noticed. 
+## Few-Shot Prompting 
+• Definition: Providing a few examples first, then asking the AI to produce a similar 
+output. 
+• Example Prompt: "Example 1: AI helps doctors diagnose diseases faster. Example 2: 
+AI enables banks to detect fraud quickly. Now, write a third example about AI in 
+education." 
+• Example Output: "AI empowers teachers to personalize lesson plans based on 
+student progress data." 
+• Test Scenario: By seeing the pattern of examples, the AI closely mirrored the style 
+and structure, producing a consistent and relevant output. 
+## Role-Based Prompting 
+• Definition: Assigning a role or persona to the AI to tailor the style and depth of the 
+response. 
+• Example Prompt: "You are an educational technology consultant. Explain the 
+challenges schools face when integrating AI." 
+• Example Output: "As an educational technology consultant, I observe that key 
+challenges include limited technical infrastructure, lack of teacher training, and 
+concerns over student data privacy when deploying AI tools." 
+• Test Scenario: The AI adopted a professional tone suitable for a consultant, making 
+the response more authoritative and context-specific. 
+## 3. Summary Table 
+![{9C6CDD42-5A63-4A27-9550-321909563EBE}](https://github.com/user-attachments/assets/73295528-3c1f-4299-88fe-c33887700985)
 
-# EXP 5: Comparative Analysis of Naïve Prompting versus Basic Prompting Using ChatGPT Across Various Test Scenarios
-# Aim: To test how ChatGPT responds to naïve prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios, analyzing the quality, accuracy, and depth of the generated responses.
-# Algorithm: 
-Define the Two Prompt Types:
-Naïve Prompts: Broad, vague, or open-ended prompts with little specificity.
-Basic Prompts: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
 
 
-# OUTPUT
-
-# RESULT: The prompt for the above said problem executed successfully
+# RESULT: 
+The prompt for the above said problem executed successfully
